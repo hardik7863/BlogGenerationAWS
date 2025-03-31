@@ -3,6 +3,7 @@
 ## 📌 Overview
 This project is an **end-to-end Generative AI application** that generates blog posts using **AWS Bedrock (Amazon Titan Text Lite model)**, **AWS Lambda**, and **Amazon S3**. The API is exposed through **Amazon API Gateway**, and Postman is used for testing API requests.
 
+![System Architecture Diagram](screenshot/diagram.png)
 ## 🔧 Tech Stack
 - **AWS Lambda**: Executes the blog generation logic.
 - **Amazon Bedrock**: Provides the foundation model (**Amazon Titan Text Lite**) for text generation.
